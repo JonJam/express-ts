@@ -1,4 +1,4 @@
-import express = require("express");
+import * as express from "express";
 import { get } from "../controllers/indexController";
 
 const router = express.Router();
